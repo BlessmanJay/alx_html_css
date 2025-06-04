@@ -20,3 +20,24 @@ article,
 aside {
   overflow-y: auto;
 }
+/* Additional features */
+body {
+  background-color: #f0f0f0;
+}
+p {
+  color: darkslategray;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.first-heading {
+  color: blue;
+  text-align: center;
+}
+.second-heading {
+  color: green;
+  text-align: center;
+}
+.third-heading {
+  color: red;
+  text-align: center;
+}
