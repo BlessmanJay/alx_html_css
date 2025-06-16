@@ -118,5 +118,6 @@ a:hover {
   .nav-links {
     flex-direction: column;
     font-size: 30px;
+    line-height: 1;
   }
 }
