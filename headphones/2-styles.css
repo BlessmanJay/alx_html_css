@@ -185,7 +185,46 @@ ul {
   color: #fff;
   margin-bottom: 8rem;
 }
-.stats {
+/* Pentagon */
+.pentagon {
+  width: 120px;
+  height: 120px;
+  background-color: #ff6565;
+  clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  margin: auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.pentagon .content {
+  line-height: 1.5;
+}
+@media (min-width: 480px) {
+  .pentagon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    /* {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: #ff6565;
+  } */
+  }
+}
+
+/* .stats {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -202,7 +241,7 @@ ul {
   height: 2rem;
   font-size: 0.8rem;
   margin-top: 10px;
-}
+} */
 
 /* Contact Section */
 .contact {
@@ -420,7 +459,7 @@ footer {
     margin: 0 auto;
     margin-bottom: 3rem;
   }
-  .rating-size {
+  /* .rating-size {
     height: 130px;
     width: 150px;
     color: red;
@@ -430,6 +469,6 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5rem;
     margin-top: 2rem;
-  }
+  } */
 }
 /* End of Desktop screen */
